@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #f8fafc;
+  color: #102033;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+progress {
+  height: 0.5rem;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 999px;
+  border: 0;
+}
+
+progress::-webkit-progress-bar {
+  background: #e8eff7;
+}
+
+progress::-webkit-progress-value {
+  background: #0e5cff;
+}
+
+progress::-moz-progress-bar {
+  background: #0e5cff;
+}
