@@ -1,4 +1,4 @@
-import type { Interest, ViewId } from "./types";
+import type { Interest, ViewId } from "@/types";
 
 export const navItems: Array<{ id: ViewId; label: string; icon: string }> = [
   { id: "dashboard", label: "Dashboard", icon: "solar:widget-5-bold-duotone" },

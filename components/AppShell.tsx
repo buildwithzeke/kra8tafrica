@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import type { ReactNode } from "react";
-import { navItems } from "./data";
-import type { ViewId } from "./types";
+import { navItems } from "@/data";
+import type { ViewId } from "@/types";
 
 function NavButton({
   icon,
